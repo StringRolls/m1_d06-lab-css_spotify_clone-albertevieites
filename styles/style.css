@@ -6,3 +6,174 @@ Green: #00B172
 White: #FFF
 
 */
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700&display=swap');
+
+body,
+html {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    color: #1a1a1a;
+}
+
+/* HEADER */
+header .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* logo */
+.top-bar img {
+    width: 146px;
+    height: 44px;
+    padding: 10px 27px;
+}
+/* navbar */
+.top-bar ul {
+    display: flex;
+    display: inline-flex;
+    list-style: none;
+    font-size: 0.95em;
+    font-weight: 300;
+}
+
+.top-bar li {
+    list-style-type: none;
+    margin-right: 40px;
+}
+
+.top-bar a {
+    color: #1a1a1a;
+    text-decoration: none;
+}
+
+/* Main Image */
+header .container {
+    background-image: url("../images/landing.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-top: 0;
+    height: 540px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+header .container div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header .container h1 {
+    font-size: 3.4em;
+    font-weight: 400;
+    margin: -8px;
+}
+
+header .container p {
+    font-size: 1.3em;
+    font-weight: 100;
+}
+/* SECTION 1 */
+.features {
+    margin: 0 80px;
+    padding-top: 15px;
+    padding-bottom: 50px;
+}
+.features h2 {
+    text-decoration: underline;
+    text-decoration-color: #00b172;
+    text-underline-offset: 7px;
+    text-align: center;
+    font-size: 1.6em;
+    font-weight: 500;
+}
+
+.features div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 40px;
+    gap: 7rem;
+    text-align: center;
+}
+
+.features img {
+    width: 90px;
+}
+
+.features h3 {
+    color: #00b172;
+    font-size: 1.3em;
+}
+
+.millions-songs {
+    margin-right: 5px;
+}
+
+.hd-music img {
+    padding: 14px 0 0 0;
+}
+
+.stream img {
+    padding: 8px 0 0 0;
+}
+
+.features p {
+    width: 180px;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+
+/* SECTION 2 */
+.advert {
+    background-color:#00b172;
+    margin: 0 35px 50px 35px;
+    display: flex;
+    flex-direction: row;
+}
+
+.advert h2 {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 7px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+    font-size: 1.5em;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+.advert h3 {
+    font-size: 1.3em;
+    letter-spacing: 1px;
+}
+
+.advert p {
+    text-align: left;
+    margin-right: 90px;
+    margin-bottom:  10px;
+    line-height: 1.5em;
+    font-weight: 300;
+}
+
+.left-side {
+    color: white;
+    margin: 15px 0 0 70px;
+}
+
+.logo img {
+    width: 90px;
+    height: auto;
+    padding-top: 250px;
+}
+
+.right-side img{
+    height: 400px;
+    width: auto;
+    padding: 80px 80px;
+}
